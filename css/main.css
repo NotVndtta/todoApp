@@ -1,13 +1,15 @@
 html, body {
   min-height: 100vh;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-  background-color: #E4E5E7;
+  background-color: #251a36;
   padding-top: 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  color: #fff;
 }
 .aside {
   height: 400px;
@@ -21,13 +23,15 @@ body {
 .task-title {
   font-weight: 400;
   padding-top: 5px;
+
 }
 .gray {
   color: #BDBDBD;
 }
 .task-title--done {
   text-decoration: line-through;
-  color: #CDCDCD;
+  color: #fff;
+
 }
 .task-item__buttons {
   display: flex;
@@ -44,6 +48,9 @@ body {
   align-items: center;
   padding-top: 1em;
   padding-bottom: 1em;
+  background-color: #342450;
+
+  
 }
 .empty-list__title {
   font-size: 28px;
@@ -55,21 +62,21 @@ body {
   font-size: 32px;
 }
 .btn-action {
-    background-color: #e0e5ea;
-    padding: 8px 10px;
-    cursor: pointer;
-    border: 0;
-    border-radius: 4px;
-    transition: opacity 0.2s ease-in;
-    opacity: 0.5;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #cdbce1;
+  padding: 8px 10px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  transition: opacity 0.2s ease-in;
+  opacity: 0.5;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-action:hover {
-    background-color: #e0e5ea;
+    background-color: #cdbce1;
     opacity: 1;
 }
 
@@ -94,4 +101,36 @@ body {
   /* bottom: 30px; */
   /* left: 0; */
   /* right: 0; */
+}
+
+.list-group-item {
+  background-color: #342450;
+}
+
+.card-header {
+  background-color: #342450;
+ 
+}
+
+.card-body {
+  
+  background-color: #342450;
+  border-color: #342450;
+  
+}
+
+
+
+.mb-4 {
+  background-color: #342450;
+}
+
+.add-task {
+  background-color: #342450;
+  border-radius: 4px;
+
+}
+
+.card {
+  background-color: #342450;
 }
