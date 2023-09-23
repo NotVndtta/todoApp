@@ -1,2 +1,2 @@
 # todoApp
-[Demo] (https://notvndtta.github.io/todoApp/)
+[Demo](https://notvndtta.github.io/todoApp/)
